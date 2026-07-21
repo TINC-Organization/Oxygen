@@ -2,7 +2,7 @@
 
 
 
-# terahedron Oxygen 
+# Terahedron Oxygen 
 
 > **Status:** Active Core Development | **Engine Version:** 0.1.0-alpha
 
