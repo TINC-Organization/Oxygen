@@ -1,30 +1,23 @@
-# Contributing to Terbium Ecosystem & TeraFrame
+# Contributing to Oxygen
 
-Thank you for taking the time to contribute to the Terbium Ecosystem! TeraFrame is a high-performance, independent native execution framework built for speed, safety, and predictability. 
-
-Because this is a serious engineering project with strict architectural boundaries (such as our 2GB volatile memory limits), we maintain rigorous standards for code quality and layout.
+Thank you for your interest in contributing to Oxygen! We welcome optimizations, bug reports, and architectural enhancements from the open-source community.
 
 ---
 
-## 🏗️ Architectural Overview
+## 📋 Code of Conduct
 
-The project is structured into distinct engineering zones:
-1. **Frontend (`/frontend`)**: Java-based command-line driver and Spring Boot orchestrator. 
-2. **Backend Engine (`/teraframe`)**: The core, standalone C++ execution framework and custom performance memory pools (Arena Allocator).
-3. **Automation (`/`)**: Root-level Bazel configuration handles strict building and cross-language target compilations.
+By participating in this project, you agree to abide by our community standards. Please maintain a respectful, collaborative environment for all developers.
 
 ---
 
-## 🛠️ Getting Started
+## 🛠️ How to Contribute
 
-### 1. Prerequisites
-Before writing code, ensure your local workspace environment is configured:
-* **Operating System**: Windows 11 / Linux Environment.
-* **Build System**: [Bazel](https://bazel.build/) (v7.x+).
-* **Compilers**: Modern C++ compiler (MSVC on Windows / GCC or Clang on Linux) and JDK 17+ for Java modules.
-* **VS Code Extensions**: Official Microsoft `C/C++` extension, `C/C++ Advanced Linting (Clang-Tidy)`, and `Todo Tree`.
+### 1. Reporting Bugs
+* Check the [Issues Tab](https://github.com/TINC-Organization/Oxygen/issues) to ensure the bug hasn't already been reported.
+* Open a new issue using our **Bug Report** template.
+* Include your Operating System, compiler version, and exact steps or code snippets to reproduce the issue.
 
-### 2. Workspace Setup
-Clone the repository and initialize the build workspace:
-```bash
-bazel build //...
+### 2. Submitting Pull Requests (PRs)
+1. **Fork the Repository:** Create your own fork of Oxygen.
+2. **Create a Feature Branch:** ```bash
+   git checkout -b feature/memory-allocator-optimization
